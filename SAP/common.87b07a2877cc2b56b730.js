@@ -1,0 +1,1 @@
+(self.webpackChunksap=self.webpackChunksap||[]).push([[592],{742:(t,e,s)=>{"use strict";s.d(e,{j:()=>n});var r=s(639),c=s(841);let n=(()=>{class t{constructor(t){this.httpc=t}getServices(){return this.httpc.get("/assets/quora.json")}}return t.\u0275fac=function(e){return new(e||t)(r.LFG(c.eN))},t.\u0275prov=r.Yz7({token:t,factory:t.\u0275fac,providedIn:"root"}),t})()}}]);
