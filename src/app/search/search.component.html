@@ -1,0 +1,22 @@
+<button style="background-color: darkcyan; color: darkgray" (click)="logout()">
+  Logout</button
+><br /><br />
+
+<input type="text" [(ngModel)]="searchi" placeholder="search" />
+<div class="search-result">
+  <ul *ngFor="let q of quora | filter: searchi">
+    <li>{{ q.id }}.{{ q.question }}&emsp;</li>
+    <p>{{ q.options }}</p>
+    <button
+      style="background-color: dodgerblue; color: white"
+      (click)="onselect(q.id)"
+    >
+      Show Answer
+    </button>
+    {{
+      q.stats
+    }}
+  </ul>
+</div>
+
+<router-outlet></router-outlet>

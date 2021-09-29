@@ -1,0 +1,12 @@
+<button style="background-color: darkcyan; color: darkgray;" (click)="logout()">Logout</button>
+<br>
+<br>
+<button style="color: darkolivegreen; background-color: darkseagreen;" routerLink="/search">Bact to search</button>
+
+
+<ul *ngFor="let q of quora | filter:QID">
+  <li>{{q.id}}.{{q.question}}</li>
+  <p>{{q.options}}</p>
+  <strong>Answer:{{q.answer}}</strong><br>
+  [Author]:{{q.author}}-{{q.stats}}
+</ul>

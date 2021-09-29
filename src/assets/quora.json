@@ -1,0 +1,26 @@
+[
+    { "id":1,
+      "question":"what is SPA in angular ?",
+      "options":"a. Super Page APP b. Single Page Application ",
+      "answer":"b",
+      "author":"jake",
+      "stats":"last asked:3-09-2021, count:10"
+
+    },
+    {
+      "id":2,
+      "question":"what is Angular latest version",
+      "options":"a. 13 b. 12 ",
+      "answer":"b",
+      "author":"jia",
+      "stats":"last asked:3-05-2021, count:20"
+    },
+    {
+      "id":3,
+      "question":"what is Angular latest version",
+      "options":"a. 13 b. 12 ",
+      "answer":"b",
+      "author":"jia",
+      "stats":"last asked:3-05-2021, count:20"
+    }
+]
